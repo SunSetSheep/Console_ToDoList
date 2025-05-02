@@ -18,6 +18,15 @@ namespace Console_ToDoList
             // create user option varialbe, default to empty string
             string option = "";
 
+            while (option != "e" || option != "E")
+            {
+                Console.WriteLine("\n Options for managing tasks");
+                Console.WriteLine("\n Enter 1 to add a new task");
+                Console.WriteLine("\n Enter 2 to remove a task");
+                Console.WriteLine("\n Enter 3 to view the whole list");
+                Console.WriteLine("\n Enter e to exit the program :) \n");
+            }
+
         }
     }
 }

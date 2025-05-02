@@ -11,7 +11,7 @@ namespace Console_ToDoList
         static void Main(string[] args)
         {
             DateTime today = DateTime.Today;
-            Console.WriteLine($"Hello {today:d} to do list !");
+            Console.WriteLine($"\t\t Hello {today:d} to do list !");
 
             // Create a list to hold the task items
             List<string> taskList = new List<string>();
@@ -20,7 +20,7 @@ namespace Console_ToDoList
 
             while (option != "e")
             {
-                Console.WriteLine("\n Options for managing tasks");
+                Console.WriteLine("\n\t\t Options for managing tasks");
                 Console.WriteLine("\n Enter 1 to add a new task");
                 Console.WriteLine("\n Enter 2 to remove a task");
                 Console.WriteLine("\n Enter 3 to view the whole list");

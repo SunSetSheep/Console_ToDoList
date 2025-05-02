@@ -13,6 +13,11 @@ namespace Console_ToDoList
             DateTime today = DateTime.Today;
             Console.WriteLine($"Hello {today:d} to do list !");
 
+            // Create a list to hold the task items
+            List<string> taskList = new List<string>();
+            // create user option varialbe, default to empty string
+            string option = "";
+
         }
     }
 }

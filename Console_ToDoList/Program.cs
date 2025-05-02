@@ -10,6 +10,9 @@ namespace Console_ToDoList
     {
         static void Main(string[] args)
         {
+            DateTime today = DateTime.Today;
+            Console.WriteLine($"Hello {today:d} to do list !");
+
         }
     }
 }
